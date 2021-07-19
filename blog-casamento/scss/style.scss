@@ -1,0 +1,135 @@
+
+//Cores utilizadas
+$azul-escuro: #3222AB;
+$roxo: #6C30A6;
+$rosa: #CB459E;
+$amarelo: #fabb29;
+$marrom: #624E4A;
+$cinza: #6D7785;
+$black: #3D3C3D;
+
+//Configurações padronizada de alguns itens
+
+//Cartões da primeira seção
+@mixin  card {
+    width: calc(80% - 10%);
+    margin-left: 10%;
+}
+@mixin  cards-config {
+    width: 25%;
+    padding: 15px;
+    margin-top: 30px;
+}
+@mixin cards-img {
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+}
+@mixin cards-h3 {
+    color: $cinza;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+@mixin cards-p {
+    text-align:left;
+    margin-bottom: 20px;
+}
+@mixin cards-media-config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+@mixin cards-media-itens {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+
+//Inicio eventos
+@mixin eventosIndividuais-config {
+    display: flex;
+    margin-top: 100px;
+    width: 90%;
+}
+@mixin eventos-img {
+    width: 500px;
+    height: 420px;
+    padding-right: 50px;
+}
+@mixin eventos-h3 {
+    font-size: 40px;
+    font-family: 'Rubik';
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    line-height: 55px;
+}
+@mixin eventos-p {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+@mixin eventos-botao {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #034a4b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+@mixin eventos-botaoImg {
+    width: 20px;
+    height: 20px;
+    margin-left:15px;
+}
+
+//Início rodapé
+@mixin listas-rodape {
+    width: 100%;
+    list-style: none;
+}
+@mixin listasItens-rodape {
+    text-align: left;
+    padding-bottom: 15px;
+    letter-spacing: .5px;
+}
+
+
+@mixin config-links {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+//Medias queries*/
+@mixin for-phone-only {
+    @media (max-width: 767.98px) {@content;}
+}
+
+@mixin for-tablet-only {
+    @media (min-width: 768px) and (max-width: 1199.98px) {@content;}
+}
+
+@mixin for-desktop-only {
+    @media (min-width: 1200px) {@content;}
+}
+
+@import './cabecalho/cabecalho','./cabecalho/menu','./conteudoPrincipal/conteudoPrincipal','./conteudoPrincipal/secaoFotografias','./conteudoPrincipal/eventosMusicais.scss','./conteudoPrincipal/secaoMembros.scss','footer';
+

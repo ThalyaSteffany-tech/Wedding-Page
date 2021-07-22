@@ -1,4 +1,4 @@
-# clone-interface-blog-casamento
+# wedding-page
 Projeto realizado para aplicação de conceitos que estudei ao longo de 2 meses. Realizado com base na interface do Web Designer Imran Mahmudur.
 
 Behance-Imran Mahmudur. https://www.behance.net/imranhossain61

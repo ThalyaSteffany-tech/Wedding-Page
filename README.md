@@ -3,6 +3,11 @@ Wedding Page
 
 Projeto realizado para aplicação de conceitos que estudei ao longo de 2 meses. Realizado com base na interface do Web Designer Imran Mahmudur.
 
+Visualize o projeto em: https://thalyasteffany-tech.github.io/Wedding-Page/#
+
+
+CRÉDITOS
+
 Behance-Imran Mahmudur. https://www.behance.net/imranhossain61
 
 Site: http://www.wordcoder.com/

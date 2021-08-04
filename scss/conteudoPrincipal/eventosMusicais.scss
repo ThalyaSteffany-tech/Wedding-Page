@@ -38,11 +38,11 @@
         }
         &__img {
             @include eventos-img;
+            object-fit: cover;
             @include for-phone-only {
                 width: 68vw;
                 padding-right: 0;
                 padding-bottom: 25px;
-                object-fit: cover;
             }
             @include for-tablet-only {
                 width: 80vw;
